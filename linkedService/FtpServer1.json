@@ -1,0 +1,18 @@
+{
+	"name": "FtpServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Demo - Acting as real FTP server",
+		"annotations": [],
+		"type": "FtpServer",
+		"typeProperties": {
+			"host": "test.rebex.net",
+			"port": 21,
+			"enableSsl": true,
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "demo",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE2RUY4NjhGLTVENEUtNEREOS1CNkU3LTM5NjRCRDE4RjExQV81MjVmMzk1OC0zZDE5LTQ4YjktOTQ0Yi02ZGQxMTdjNTk1NTgiDQp9"
+		}
+	}
+}
