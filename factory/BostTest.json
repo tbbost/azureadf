@@ -1,0 +1,9 @@
+{
+	"name": "BostTest",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5de2a1a9-4f38-4810-abf8-a7ab785cfc91",
+		"tenantId": "14e9fa09-d5a4-4ba1-a658-d7d47e533d3b"
+	}
+}
